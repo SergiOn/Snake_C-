@@ -12,12 +12,12 @@ namespace Snake
         public int y;
         public char sym;
 
-        public Point()
+        public Point(int _x, int _y, char _sym)
         {
-            Console.WriteLine("Создается новая точка");
+            x = _x;
+            y = _y;
+            sym = _sym;
         }
-
-      
 
         public void Draw()
         {
